@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7640604820B5B71A003DEDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7640604720B5B718003DEDA7 /* Assets.xcassets */; };
 		76CF02171FAFA6D100031B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF02161FAFA6D100031B65 /* AppDelegate.swift */; };
 		76CF02191FAFA6D100031B65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF02181FAFA6D100031B65 /* ViewController.swift */; };
 		76CF021C1FAFA6D100031B65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CF021A1FAFA6D100031B65 /* Main.storyboard */; };
-		76CF021E1FAFA6D100031B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CF021D1FAFA6D100031B65 /* Assets.xcassets */; };
 		76CF02211FAFA6D100031B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CF021F1FAFA6D100031B65 /* LaunchScreen.storyboard */; };
 		76CF022C1FAFA6D100031B65 /* digitalStethoscopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF022B1FAFA6D100031B65 /* digitalStethoscopeUITests.swift */; };
+		76CF02371FAFA73800031B65 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CF02361FAFA73800031B65 /* ViewControllerTwo.swift */; };
+		76F8765F208EA172008F6686 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F8765E208EA172008F6686 /* ViewControllerOne.swift */; };
+		76F87661208EA1A5008F6686 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F87660208EA1A5008F6686 /* ViewControllerThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7640604720B5B718003DEDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76CF02131FAFA6D100031B65 /* digitalStethoscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digitalStethoscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CF02161FAFA6D100031B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76CF02181FAFA6D100031B65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76CF021B1FAFA6D100031B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		76CF021D1FAFA6D100031B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76CF02201FAFA6D100031B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76CF02221FAFA6D100031B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76CF02271FAFA6D100031B65 /* digitalStethoscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = digitalStethoscopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76CF022B1FAFA6D100031B65 /* digitalStethoscopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = digitalStethoscopeUITests.swift; sourceTree = "<group>"; };
 		76CF022D1FAFA6D100031B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CF02361FAFA73800031B65 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		76F8765E208EA172008F6686 /* ViewControllerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		76F87660208EA1A5008F6686 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,11 @@
 			children = (
 				76CF02161FAFA6D100031B65 /* AppDelegate.swift */,
 				76CF02181FAFA6D100031B65 /* ViewController.swift */,
+				76F8765E208EA172008F6686 /* ViewControllerOne.swift */,
+				76CF02361FAFA73800031B65 /* ViewControllerTwo.swift */,
+				76F87660208EA1A5008F6686 /* ViewControllerThree.swift */,
 				76CF021A1FAFA6D100031B65 /* Main.storyboard */,
-				76CF021D1FAFA6D100031B65 /* Assets.xcassets */,
+				7640604720B5B718003DEDA7 /* Assets.xcassets */,
 				76CF021F1FAFA6D100031B65 /* LaunchScreen.storyboard */,
 				76CF02221FAFA6D100031B65 /* Info.plist */,
 			);
@@ -180,7 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76CF02211FAFA6D100031B65 /* LaunchScreen.storyboard in Resources */,
-				76CF021E1FAFA6D100031B65 /* Assets.xcassets in Resources */,
+				7640604820B5B71A003DEDA7 /* Assets.xcassets in Resources */,
 				76CF021C1FAFA6D100031B65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +208,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76F87661208EA1A5008F6686 /* ViewControllerThree.swift in Sources */,
 				76CF02191FAFA6D100031B65 /* ViewController.swift in Sources */,
 				76CF02171FAFA6D100031B65 /* AppDelegate.swift in Sources */,
+				76CF02371FAFA73800031B65 /* ViewControllerTwo.swift in Sources */,
+				76F8765F208EA172008F6686 /* ViewControllerOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
